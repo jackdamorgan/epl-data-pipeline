@@ -1,42 +1,32 @@
-# ⚽ Premier League Match Analytics – ETL Pipeline Project
+# 🏆 Premier League Match Analytics
 
-**🗓️ Start Date:** April 22, 2025  
-**⏳ Duration:** 1 week (extendable)  
-**🔧 Project Type:** Data Engineering / ETL Pipeline
+## 📌 Overview
+An end-to-end data pipeline fetching Premier League match data from the `football-data.org` API, transforming it with Python, and loading it into a PostgreSQL database for analysis. Data is visualized in Power BI to track team standings, form, and goals.
 
----
-
-## ✅ Project Overview
-
-This project focuses on building a simple but functional ETL (Extract, Transform, Load) pipeline to analyze English Premier League match data. The pipeline connects to a football data API, processes and cleans the raw data in Python, stores it in a PostgreSQL database, and enables basic analysis through SQL queries.
-
----
-
-## 🎯 Goal
-
-The main objectives of the project are to:
-
-- Fetch Premier League match data from a public football API  
-- Clean and structure the data using Python and pandas  
-- Load the processed data into a PostgreSQL database  
-- Perform SQL-based analysis to evaluate team performance:
-  - Total wins  
-  - Total losses  
-  - Total points  
-- Optionally export the results to CSV or visualize the data using Excel/Tableau  
+**Status:**  
+✅ Data Fetch & Cleaning  
+✅ PostgreSQL Load  
+🔄 Power BI Dashboard (In Progress)  
+🔮 Planned: Airflow Automation, AWS RDS Hosting
 
 ---
 
-## 🧰 Tech Stack
-
-- **Python** – for data extraction and transformation  
-  - Libraries used: `requests`, `pandas`  
-- **PostgreSQL** – for relational data storage  
-  - Hosted locally or via services like ElephantSQL  
-- **SQL** – for querying the database  
-  - Key functions: `GROUP BY`, `COUNT`, filtering  
-- **Optional Tools:**  
-  - Excel / Tableau – for data visualization  
-  - GitHub – to document and version the project  
+## 🛠 Tech Stack
+- Python (pandas, requests)
+- PostgreSQL
+- Power BI
+- Git/GitHub
+- Airflow *(planned)*
+- AWS RDS *(planned)*
 
 ---
+
+## 📈 Next Steps
+- Automate with Airflow
+- Deploy DB to AWS RDS
+- Schedule dashboard refresh
+
+---
+
+## 🔗 Links
+- **GitHub Repo:** [Premier League Match Analytics](https://github.com/jackdamorgan/premier-league-analytics)
