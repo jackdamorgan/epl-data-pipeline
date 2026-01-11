@@ -19,5 +19,5 @@ data = response.json()
 print(response)
 
 
-with open("ingestion/epl_matches_2024.json", "w") as f:
+with open("samples/epl_matches_2024.json", "w") as f:
     json.dump(data, f, indent=2)
